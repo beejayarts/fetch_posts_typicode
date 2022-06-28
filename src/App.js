@@ -3,7 +3,6 @@ import "./index.css";
 import React, { useState, useEffect } from "react";
 import axios from "./api/config";
 import ChatCard from "./components/ChatCard";
-import { Processor } from "postcss";
 
 function App() {
   const [posts, setPosts] = useState([]);
