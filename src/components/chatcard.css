@@ -1,0 +1,83 @@
+.card-container{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    background-color: white;
+    font-family: montserrat, Helvetica, sans-serif;
+    padding: 4rem 2rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+}
+
+.card-img{
+    width: 50px;
+    height: 50px;
+}
+.img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.card-body{
+    text-align: left;
+    color: rgb(92, 92, 92);
+    line-height: 1.4rem;
+    font-size: .9rem;
+}
+
+.card-header{
+    display: flex;
+    
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.card-title{
+    font-weight: bold;
+    color: rgb(92, 92, 92);
+}
+.time{
+    font-size: 1rem;
+    color: rgb(153, 153, 153);
+}
+
+footer{
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.reply-btn{
+    background-color: green;
+    padding: .5rem 2rem;
+    outline: none;
+    border: none;
+    border-radius: .8rem;
+    color: white;
+    text-transform: capitalize;
+    transition: all .4s ease;
+
+}
+
+.delete-btn{
+    background-color: rgb(233, 21, 14);
+    padding: .5rem 2rem;
+    outline: none;
+    border: none;
+    border-radius: .8rem;
+    color: white;
+    text-transform: capitalize;
+    transition: all .4s ease;
+
+}
+
+.reply-btn:hover{
+    transform: scale(1.2);
+}
+
+.delete-btn:hover{
+    transform: scale(1.2);
+}
